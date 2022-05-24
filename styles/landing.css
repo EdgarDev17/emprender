@@ -62,13 +62,28 @@ body {
     align-items: center;
     
 }
+/*.txt1{
+    animation: maquina 5s infinite alternate steps(69);
+}
+
+@keyframes maquina{
+    from{
+        width: 100%;
+    }
+    to{
+        width: 0;
+    }
+}*/
 
 .txt1{
     font-family: 'Poppins', sans-serif;
     position: absolute;
-    top: 18%;
+    top: 18%;   
     font-size: 50px;
     text-align: center;
+    display: flex;
+    flex-direction: column; 
+    width: 50%;
 }
 
 
