@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Raleway:ital,wght@1,500&display=swap');
+body {
+    padding: 0;
+    margin: 0;
+}
+
+/*diseño header*/
+.header {
+    width: auto;
+    height: auto;
+    background-color: #3D84A7;
+}
+
+.logo img {
+    width: 80px;
+    height: 35px;
+    margin-top: 25px;
+    margin-left: 50px;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    padding-left: 70%;
+    justify-content: space-around;
+    margin-top: -30px;
+}
+.navbar li {
+    display: flex;
+    list-style: none;
+}
+.navbar li a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+    text-decoration: underline;
+}
+
+.navbar li a:hover {
+    color: white;
+    text-decoration: overline;
+}
+
+.objet{
+    margin-top: -1.2%;
+}
+.objet1{
+    margin-top: -38.9%;
+}
+/*fin del diseño del header*/
+
+/*bloque uno diseños*/
+
+.row {
+    display: grid;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.card {
+    border: #000, 5px, solid;
+    border-radius: 10%;
+    width: 500px;
+    height: 400px;
+    background-color: #fff;
+    margin-top: 5px;
+    display: flex;
+    text-align: justify;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    padding: 1%;
+    margin-right: 20px;
+}
+.row p{
+    padding: 15px;
+}
+/*fin del diseño bloque 1*/
+/*
+.container {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin-top: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}*/
+
+/*contenedor de las tarjetas bloque 2 lenguajes usados*/
+.targect {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    
+.targect h1 {
+    font-family: 'Raleway',;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.targect h2 {
+    font-family: 'Playball';
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.card1 {
+    border: #000, 5px, solid;
+    border-radius: 10%;
+    width: 300px;
+    height: 400px;
+    background-color: #46CDCF;
+    margin-top: 20px;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    padding: 1%;
+    margin-right: 30px;
+}
+
+.card2{
+    width: 300px;
+    height: 400px;
+    border-radius: 10%;
+    background-color: #46CDCF;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    text-align: justify;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    padding: 1%;
+    white-space: normal;
+}
+
+.card3{
+    width: 300px;
+    height: 400px;
+    border-radius: 10%;
+    background-color: #46CDCF;
+    margin-top: 20px;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    padding: 1%;
+    margin-left: 30px;
+}
+
+.row1 p{
+    padding: 10px;
+}
+.targect a{
+    text-decoration: none;
+    color: #000;
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;    
+    color: #000;;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+
+.targect a:hover{
+    color: white;
+    background-color: #46CDCF;
+}
+/*fin del diseño del bloque 2*/
+
+/*inicio del diseño del bloque 3 linea*/
+
+.linercontainer {
+    width: auto;
+    height: auto;
+}
+
+/*fin del diseño del bloque 3*/
+
+/*diseño bloque 4 new project*/
+
+.targectBlock {
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+    
+.targectBlock h1 {
+    font-family: 'Playball';
+    font-size: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.targectBlock h2 {
+    font-family: 'Playball';
+    font-size: 32px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.rowBlock {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.cardBlock {
+    width: 700px;
+    height: auto;
+    background-color: #fff;
+    margin-top: 5px;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    padding: 1%;
+}
+
+.cardBlock1 {
+    height: auto;
+    background-color: #fff;
+    margin-top: 5px;
+    display: flex;
+    text-align: justify;
+    align-items: flex-start;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    padding: 0.5%;
+}
+
+.rowBlock1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 3px;
+}
+
+.cardBlock1 img{
+    margin-top: 75px;
+    width: 550px;
+}
+.cardBlock1 p{
+    width: 300px;
+}
+.rowBlock p{
+    padding: 5px;
+}
+
+.targectBlock a{
+    text-decoration: none;
+    color: #000;
+    width: 200px;
+    height: 50px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;    
+    color: #000;;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.targectBlock a:hover{
+    color: white;
+    background-color: #46CDCF;
+}
+/* fin del diseño bloque 4 new project*/
+
+/*pie de pagina*/
+.foot{
+    margin-top: 60px;
+    border-top: solid black 1px;
+    margin-bottom: 60px;
+}
+
+.containerf{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-family: 'Poppins', sans-serif;    
+}
+
+.lo{
+    display: flex;
+    width: 100px;
+}
+
+.col1 a img{
+    margin-left:20px ;
+}
+
+.col2 a{
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.col2 a:hover{
+    text-decoration: underline;
+    color: cadetblue;
+}
+
+.col3 img{
+    float: left;
+}
+/*fin del pie de pagina*/
