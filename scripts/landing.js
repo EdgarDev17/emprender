@@ -3,7 +3,7 @@ let str = text.innerHTML;
 
 text.innerHTML = "";
 
-let speed = 200;
+let speed = 50;
 let i=0;
 
 //efecto de maquina de escribir
