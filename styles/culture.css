@@ -109,8 +109,10 @@ body {
 .fund{
  text-align: center;
     font-family: 'Poppins', sans-serif;
-    margin-top: 10%;
     justify-content: center;
+    margin-top: 12%;
+    width: 100%;
+    height: auto;
 }
 
 .fun1{
@@ -119,18 +121,58 @@ body {
     display: flex;
     flex-direction: row;
     border-radius: 10px;
-    width: 50%;
-    height: auto;
-    margin-left: 25%;
+    width: 70%;
+    height: 400px;
+    margin-top: 5%;
     justify-content: center;
+    align-items: center;
     background-color: #EAEAEA;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 
 .fun1 img{
-    width: 40%;
-    float: left;
-    margin-left: 10%;
-    margin-bottom: 40px;
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-left: 50px;
+    justify-content: center;
+    align-content: center;
+}
+
+.info {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.info p {
+    padding: 5%;
+}
+
+.fun1Rev{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: row-reverse;
+    border-radius: 10px;
+    width: 70%;
+    height: 400px;
+    margin-top: 5%;
+    justify-content: center;
+    align-items: center;
+    background-color: #EAEAEA;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.fun1Rev img{
+    display: flex;
+    width: 300px;
+    height: 300px;
+    margin-right: 50px;
+    justify-content: center;
+    align-content: center;
 }
 
 
