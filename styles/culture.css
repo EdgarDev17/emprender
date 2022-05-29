@@ -23,16 +23,18 @@ body {
     display: flex;
     flex-direction: row;
     padding-left: 70%;
+    margin-right: 50px;
     justify-content: space-around;
     margin-top: -30px;
 }
 .navbar li {
     display: flex;
     list-style: none;
+    margin-right: 30px;
 }
 .navbar li a {
     font-family: 'Poppins', sans-serif;
-    font-size: 18px;
+    font-size: 15px;
     color: #000;
     text-decoration: none;
 }
